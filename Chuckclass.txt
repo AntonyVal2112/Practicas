@@ -1,0 +1,10 @@
+class Chuck extends Pajaro {
+    public Chuck() {
+        super("Chuck", "Amarillo", 7);
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(nombre + " ataca usando velocidad aumentada");
+    }
+}

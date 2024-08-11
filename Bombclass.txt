@@ -1,0 +1,10 @@
+class Bomb extends Pajaro {
+    public Bomb() {
+        super("Bomb", "Negro", 10);
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(nombre + " ataca haciendo una gran explosion");
+    }
+}

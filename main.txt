@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        Pajaro red = new Red();
+        Pajaro chuck = new Chuck();
+        Pajaro bomb = new Bomb();
+
+
+        Pajaro[] pajaros = {red, chuck, bomb};
+        
+        
+        for (Pajaro pajaro : pajaros) {
+            pajaro.lanzar();
+            pajaro.atacar();
+            System.out.println();
+        }
+    }
+}

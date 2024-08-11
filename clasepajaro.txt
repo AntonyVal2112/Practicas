@@ -1,0 +1,19 @@
+class Pajaro {
+    protected String nombre;
+    protected String color;
+    protected int fuerza;
+
+    public Pajaro(String nombre, String color, int fuerza) {
+        this.nombre = nombre;
+        this.color = color;
+        this.fuerza = fuerza;
+    }
+
+    public void lanzar() {
+        System.out.println(nombre + " ha sido lanzado!");
+    }
+
+    public void atacar() {
+        System.out.println(nombre + " ataca con una fuerza de " + fuerza);
+    }
+}

@@ -1,0 +1,10 @@
+class Red extends Pajaro {
+    public Red() {
+        super("Red", "Rojo", 5);
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(nombre + " ataca con todas sus fuerzas");
+    }
+}
